@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import HeroImage from "../assets/logoPortfolio.png";
+import HeroImage from "/logoPortfolio.png";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
